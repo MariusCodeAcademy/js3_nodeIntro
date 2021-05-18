@@ -9,12 +9,21 @@ const color = "green";
 
 const fs = require("fs");
 // sukurti failus
-fs.writeFile("user1.txt", "username=jane", (err) => {
-  if (err) {
-    console.log(" err", err);
-  } else {
-    console.log("irasytas failas");
-  }
-});
+function writeFile() {
+  fs.writeFile("user1.txt", "username=jane", (err) => {
+    if (err) {
+      console.log(" err", err);
+    } else {
+      console.log("irasytas failas");
+    }
+  });
+}
 
 // nuskaitayti failus
+fs.readFile("user1.txt", (err, data) => {
+  if (err) {
+    console.error("klaida nuskaitant faila");
+    return;
+  }
+  console.log(" data", data.toString());
+});
