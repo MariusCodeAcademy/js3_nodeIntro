@@ -1,0 +1,8 @@
+1. pasikurti nauja projekta inicializuoti git
+
+2. susikurti app.js failiuka, functions.js
+
+3. functions.js faile aprasyti funkcija kuri gauna stringa 
+ir pavercia ji camelCase 
+
+4. exportouti funckija ir panaudoti ja app.js faile paleidu su node.js
