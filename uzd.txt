@@ -4,5 +4,17 @@
 
 3. functions.js faile aprasyti funkcija kuri gauna stringa 
 ir pavercia ji camelCase 
-
+makeCamel('pasikurti nauja projekta inicializuoti git') 
+// pasikurtiNaujaProjektaInicializuotiGit
 4. exportouti funckija ir panaudoti ja app.js faile paleidu su node.js
+
+5. prijungti github prie projekto ir nusiusti visa coda.
+
+6. functions.js faile suskurti funkcija kuri pavercia gauta texta i PascalCase
+// toks pat kaip camelCase tik pirma raide dzioji
+
+7. exportuoti funkcija ir panaudoti app js 
+
+8. s
+
+
