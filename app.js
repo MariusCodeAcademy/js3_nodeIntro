@@ -1,6 +1,6 @@
 const color = "green";
 
-console.log(`hello world and the color is ${color}`);
+// console.log(`hello world and the color is ${color}`);
 
 // document.getElementById("id"); // nera tokio objekto
 
@@ -8,11 +8,13 @@ console.log(`hello world and the color is ${color}`);
 // isikeliam failu sistemo moduli
 
 const fs = require("fs");
-
-fs.writeFile("user.txt", "username=Bob", (err) => {
+// sukurti failus
+fs.writeFile("user1.txt", "username=jane", (err) => {
   if (err) {
     console.log(" err", err);
   } else {
     console.log("irasytas failas");
   }
 });
+
+// nuskaitayti failus
